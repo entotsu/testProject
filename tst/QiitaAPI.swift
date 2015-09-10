@@ -17,6 +17,22 @@ class QiitaArticle: Object {
 }
 
 
+
+/**
+# QiitaAPI
+This is test
+* afae
+* aefae
+* afaefa
+
+aa aaa aa
+
+> tets
+
+```
+test
+```
+*/
 class QiitaAPI {
     static func randomURL() -> String {
         let page: Int = Int(arc4random_uniform(100) + 1)

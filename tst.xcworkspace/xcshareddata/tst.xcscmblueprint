@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "824EAF4A62BB68637DA7C24DF093F92A8E0E6C73",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D78924967B5ECB0A1D20E197FAB93ACBFA47F0D1" : 0,
+    "824EAF4A62BB68637DA7C24DF093F92A8E0E6C73" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1812C799-2DF5-4D25-8CFA-79C3A4B5AEC8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D78924967B5ECB0A1D20E197FAB93ACBFA47F0D1" : "tst\/Bond\/",
+    "824EAF4A62BB68637DA7C24DF093F92A8E0E6C73" : "tst\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tst",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tst.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/entotsu\/testProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "824EAF4A62BB68637DA7C24DF093F92A8E0E6C73"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftBond\/Bond.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D78924967B5ECB0A1D20E197FAB93ACBFA47F0D1"
+    }
+  ]
+}
