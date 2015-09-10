@@ -26,6 +26,7 @@
 		B05114931BA0387F00CF99F2 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03736A21B9EAC230002E74C /* Bond.framework */; };
 		B05114941BA0388800CF99F2 /* Pods_tst.framework in Resources */ = {isa = PBXBuildFile; fileRef = AB7BFC9F37FF883DCF768FEC /* Pods_tst.framework */; };
 		B05114961BA0389100CF99F2 /* Bond.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B03736A21B9EAC230002E74C /* Bond.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B07026CE1BA17C97009B1F40 /* SuggestionViewControllerDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07026CD1BA17C97009B1F40 /* SuggestionViewControllerDesign.swift */; settings = {ASSET_TAGS = (); }; };
 		DFF875BFC10C3AADB12AF939 /* Pods_tst.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7BFC9F37FF883DCF768FEC /* Pods_tst.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -142,6 +143,7 @@
 		B05114721BA00CB000CF99F2 /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
 		B05114751BA0150700CF99F2 /* ArrayEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayEx.swift; sourceTree = "<group>"; };
 		B051148A1BA0305E00CF99F2 /* SuggestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
+		B07026CD1BA17C97009B1F40 /* SuggestionViewControllerDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionViewControllerDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				B05114721BA00CB000CF99F2 /* CGRectEx.swift */,
 				B05114751BA0150700CF99F2 /* ArrayEx.swift */,
 				B037366D1B9EA4290002E74C /* ViewController.swift */,
+				B07026CD1BA17C97009B1F40 /* SuggestionViewControllerDesign.swift */,
 				B051148A1BA0305E00CF99F2 /* SuggestionView.swift */,
 				B05114631B9FC06F00CF99F2 /* tapToGetQiitaArticles.swift */,
 				B05114691B9FC1D900CF99F2 /* Cache.swift */,
@@ -494,6 +497,7 @@
 			files = (
 				B051146D1BA0079300CF99F2 /* QiitaAPI.swift in Sources */,
 				B05114761BA0150700CF99F2 /* ArrayEx.swift in Sources */,
+				B07026CE1BA17C97009B1F40 /* SuggestionViewControllerDesign.swift in Sources */,
 				B051148B1BA0305E00CF99F2 /* SuggestionView.swift in Sources */,
 				B037366E1B9EA4290002E74C /* ViewController.swift in Sources */,
 				B051146A1B9FC1D900CF99F2 /* Cache.swift in Sources */,

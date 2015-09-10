@@ -11,41 +11,34 @@ import Bond
 import SwiftyJSON
 import RealmSwift
 
-class ViewController: UIViewController, tapToGetQiitaArticles {
+class ViewController: UIViewController, tapToGetQiitaArticles, SuggestionViewControllerDesign {
     
     var suggestionView: SuggestionView? = nil
     let numOfSuggestion = 3
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        let refreshButton = UIButton()
-        refreshButton.frame = CGRect(x: 44, y: 44, width: 88, height: 44)
-        refreshButton.setTitle("refresh", forState: .Normal)
-        refreshButton.backgroundColor = UIColor.greenColor().colorWithAlphaComponent(0.2)
-        view.addSubview(refreshButton)
+        view.backgroundColor = UIColor.brownColor()
+        let (refreshButton, testButton) = addSubviews()
         startTapToGetStream(refreshButton.bnd_tap).next()
+        
+        testButton.addTarget(self, action: "onTapTestButton", forControlEvents: .TouchUpInside)
+    }
+    
+    func onTapTestButton() {
+        print("ontaptestbutton")
     }
     
     func didGetNewArticle(var articles:[QiitaArticle]) {
         let dispArticles: [QiitaArticle] = articles.removeRandom(numOfSuggestion)
         if self.suggestionView == nil {
             dispatch_async(dispatch_get_main_queue()) {
-                self.addSuggestionView(dispArticles)
+                self.suggestionView = self.addSuggestionView(dispArticles)
             }
         }
         else {
-            // update view
+            // TODO: update view
         }
-    }
-    
-    
-    func addSuggestionView(suggestArticles:[QiitaArticle]) {
-        let headerMargin: CGFloat = 44
-        var suggestionViewFrame = self.view.frame
-        suggestionViewFrame.y = headerMargin
-        suggestionViewFrame.height -= headerMargin
-        self.suggestionView = SuggestionView(frame: suggestionViewFrame, articles: suggestArticles)
-        self.view.addSubview(self.suggestionView!)
     }
 }
 
